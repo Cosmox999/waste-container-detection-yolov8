@@ -33,27 +33,13 @@ https://drive.google.com/drive/folders/1IVQTMe8PEdEVpj1uBONceOzVc8QjVzXU
 
 Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/waste-container-detection-yolov8.git
+git clone https://github.com/Cosmox999/waste-container-detection-yolov8.git
 
 Install dependencies
 
 pip install ultralytics opencv-python numpy matplotlib
 
-## Training
-
-Run training using:
-
-python train.py
-
-## Inference
-
-python detect.py
-
-## Project Structure
-
-notebooks/project.ipynb – main training notebook  
-results/ – output predictions and evaluation  
-images/ – sample detection outputs
+Run the project.ipynb file from projects directory
 
 ## Tech Stack
 
