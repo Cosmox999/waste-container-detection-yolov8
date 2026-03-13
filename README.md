@@ -39,7 +39,7 @@ Install dependencies
 
 pip install ultralytics opencv-python numpy matplotlib
 
-Run the project.ipynb file from projects directory
+Run the project.ipynb file from Notebooks directory
 
 ## Tech Stack
 
