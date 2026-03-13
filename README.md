@@ -1,21 +1,69 @@
-# Learner-Space-Zero-Waste
+# Waste Container Detection using YOLOv8
 
-## Project Name: Waste Container detection using Yolo
+Object detection system for detecting waste containers using YOLOv8 and the Open Images dataset.
 
-**Overview:** This project implements an object detection pipeline using the YOLOv8 model from the Ultralytics library. It includes setting up the environment, training on a custom dataset, and performing inference on test images and test video. The **Project.ipynb** file is the main file of project and the assignments folder contains the assignments required to do for this project.
+## Overview
+This project trains a YOLOv8 model using the Ultralytics framework to detect waste containers in images and videos. The model is trained on a custom dataset derived from the Open Images dataset.
 
-**Dataset Link:** https://drive.google.com/drive/folders/1tf70blWnr-JqCh4zkpTNhgKwN3mzbLec?usp=sharing  
-**Results:** https://drive.google.com/drive/folders/1IVQTMe8PEdEVpj1uBONceOzVc8QjVzXU?usp=sharing
+## Features
+- Custom dataset preparation
+- YOLOv8 training pipeline
+- Real-time object detection
+- Video inference support
+- Bounding box visualization
 
-### Workflow: 
-1. **Installation:** Installed YOLOv8  
-2. **Model Loading:** Loaded the pretrained YOLOv8 model from Ultralytics  
-3. **Data Preparation:**
-   - training and validation images
-   - Setup directory structure and copied files accordingly
-4. **Model Training:**
-   - Trained YOLOv8 on a custom dataset
-   - Adjusted parameters like batch size, epochs, and image size
-5. **Inference:**
-   - Performed predictions on new test images
-   - Displayed and saved the results
+## Dataset
+Dataset used: Open Images – Waste Container class
+
+Dataset Link:
+https://drive.google.com/drive/folders/1tf70blWnr-JqCh4zkpTNhgKwN3mzbLec
+
+## Results
+
+Model Performance
+
+mAP@0.5 : 0.73  
+F1 Score : 0.73  
+Precision : 1.00 (at 0.92 confidence)
+
+Results:
+https://drive.google.com/drive/folders/1IVQTMe8PEdEVpj1uBONceOzVc8QjVzXU
+
+## Installation
+
+Clone the repository
+
+git clone https://github.com/YOUR_USERNAME/waste-container-detection-yolov8.git
+
+Install dependencies
+
+pip install ultralytics opencv-python numpy matplotlib
+
+## Training
+
+Run training using:
+
+python train.py
+
+## Inference
+
+python detect.py
+
+## Project Structure
+
+notebooks/project.ipynb – main training notebook  
+results/ – output predictions and evaluation  
+images/ – sample detection outputs
+
+## Tech Stack
+
+Python  
+YOLOv8 (Ultralytics)  
+OpenCV  
+PyTorch  
+
+## Author
+
+Ganesh Sonawane  
+B.Tech Energy Science and Engineering  
+IIT Bombay
